@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #59c082;
+        font-family: "Josefin", sans-serif;
+        color: white;
+    }
+
+    /* Main layout: text on left, image on right */
+    .container {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    /* Stack the headers */
+    .text-block {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        max-width: 400px;
+        gap: 10px;
+    }
+
+    .text-block h1, .text-block h3 {
+        margin: 0;
+    }
+
+    /* Image formatting */
+    .image-block img {
+        max-height: 500px;
+        height: auto;
+        width: auto;
+    }
+
+</style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- Left side text -->
+        <div class="text-block">
+            <h1>Hi, I'm CptnHawkeye. Or Cptn or just Hawkeye</h1>
+            <h3>I'm an engineering student who plays an unhealthy amount of games.</h3>
+            <p>Socials</p>
+        </div>
+
+        <!-- Right side image -->
+        <div class="image-block">
+            <img src="image/koharuheadshot.png" alt="headshot">
+        </div>
+
+    </div>
+
+</body>
+</html>
