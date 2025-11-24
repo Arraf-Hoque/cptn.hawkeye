@@ -5,8 +5,8 @@ body {
         height: 100vh;
         align-items:center;
         justify-content:center;
-        font-family:"Josefin", sans-serif;
-        font-weight: 500;
+        font-family:"Arial", sans-serif;
+        font-weight: 350;
         background-color: #59c082;
         color: #ffffff;
         text-align: center;
@@ -14,7 +14,10 @@ body {
 
         
 }
-
+header {
+    font-family: "Helvetica Rounded", sans-serif;
+    font-weight: 350;
+}
 .menu-button {
     display: block;
     margin: 10px auto;      /* centers them horizontally */
