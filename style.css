@@ -5,7 +5,7 @@ body {
         height: 100vh;
         align-items:center;
         justify-content:center;
-        font-family:"Arial", sans-serif;
+        font-family:"Arial",Helvetica,sans-serif;
         font-weight: 350;
         background-color: #59c082;
         color: #ffffff;
@@ -15,7 +15,7 @@ body {
         
 }
 header {
-    font-family: "Helvetica Rounded", sans-serif;
+    font-family: "Helvetica", sans-serif;
     font-weight: 350;
 }
 .menu-button {
