@@ -1,23 +1,21 @@
 body {
         margin:0;
-        display:flex;
-        flex-direction: column;
-        height: 100vh;
-        align-items:center;
-        justify-content:center;
-        font-family:"Arial",Helvetica,sans-serif;
-        font-weight: 350;
-        background-color: #bfc4d8;
-        color: #ffffff;
-        text-align: center;
-        font-size: 17px;
-
-        
+        padding: 0;
+        background-color: #211f1f;
 }
-header {
-    background-color: #00ff66;
-    font-family: "Helvetica", sans-serif;
-    font-weight: 350;
+
+.header-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  background-color: #65715d;
+  
+  position:relative;
+  background-size: cover;
 }
 
 .img-head{
@@ -40,7 +38,29 @@ header {
     font-weight: bold;
     transition: transform 0.2s;
 }
+.nav-head{
+  background-color: #65715d;
+  overflow:hidden;
+  position: absolute;
+  bottom: 0px;
+ 
+  
+}
 
+.nav-head a {
+  float: center;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-head a:hover{
+  background-color: #cee8ba;
+  color: black;
+  bottom: 0px;
+}
 .player-border {
   width: 220px;
   height: 500px;
