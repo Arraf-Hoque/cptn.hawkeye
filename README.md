@@ -1,3 +1,2 @@
-Hi Im CptnHawkeye, CPTN or just Hawkeye
-
-holy fortnite
+# cptn.page
+Personal Website for Arraf Hoque. Used as a digital portfolio for online persona
