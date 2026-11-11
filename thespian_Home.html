@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="style.css"> 
     <title>Thespian Stage Main Page</title>
     <script type = "text/javascript" src="animations.js" defer></script>
+    <script src="functions.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body class="home-page">
     <div class="header">
@@ -63,7 +65,7 @@
         </div>
         <div class="contact-section">
             <h1><span style="color:#c7a6ff">Contact Form</span></h1>
-            <form action="mailto:arrafhoque@gmail.com" method="post" enctype="text/plain" class="contactForm">
+            <form action="mailto:arrafhoque@gmail.com" method="post" enctype="text/plain" class="contactForm" name="contactForm" onsubmit="return validateForm()">
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name"><br>
             <label for="email">Email:</label><br>
@@ -73,10 +75,18 @@
             <input type="submit" value="Send">
             </form>
         </div>
+        <button onclick="sayHello()">Say Hello</button>
+
+        <script>
+            window.addEventListener('DOMContentLoaded', (event) => {
+                logMessage();
+            });
+        </script>
         </div>
         </div>
         
     </div>
+    <!--calander system, Working Socials, form validit-->
     
 
     

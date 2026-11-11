@@ -6,12 +6,20 @@ body{
     size: 14px;
 }
 .home-page{
-    background-image:url("Screenshot 2026-08-30 045423.png");
+    background-image:url("Home.png");
     background-position:center;
     background-size:cover;
     background-attachment:fixed;
     background-repeat:no-repeat;
 }
+.drink-page{
+    background-image:url("DrinkBack.png");
+    background-position:right;
+    background-size:1920px 1080px;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+}
+
 nav{
     display:flex;
     justify-content: space-between;
@@ -39,6 +47,9 @@ h1{
     top: 0;
     padding: 10px 16px;
     background-color:rgba(0, 0, 0, 0.8);
+}
+.scrollBox{
+    
 }
 .thespianStage{
     display:flex;
@@ -107,6 +118,38 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.drinkBox{
+    position:relative;
+    overflow:auto;
+    z-index:1;
+    flex-flow: row;
+    height: 500px;
+    width: 500px;
+    box-sizing:border-box;
+    margin-right:clamp(16px, 5vw, 64px);
+    padding:24px;
+    text-align:center;
+    color:white;
+    background-color:rgba(0, 0, 0, 0.8);
+}
+
+.drink-page .drinkBox{
+    scrollbar-color:rgba(200, 200, 200, 0.5) transparent;
+    scrollbar-width:thin;
+}
+.drink-page .drinkBox::-webkit-scrollbar{
+    width:8px;
+}
+.drink-page .drinkBox::-webkit-scrollbar-track{
+    background:transparent;
+}
+.drink-page .drinkBox::-webkit-scrollbar-thumb{
+    border-radius:10px;
+    background-color:rgba(200, 200, 200, 0.5);
+}
+
+
+
 .box-right{
     position:relative;
     flex-flow: row-reverse;
@@ -119,6 +162,7 @@ h1{
     color:white;
     background-color:rgba(0, 0, 0, 0.8);
 }
+
 #testContainer{
     widht:auto;
     height:auto;
